@@ -5,15 +5,12 @@
   <title>DieselStrix</title>
 </head>
 <body>
-
   <h1>Welcome to DieselStrix</h1>
   <p>See nature at its boldest.</p>
-
   <a href="https://dieselstrix.creator-spring.com" target="_blank">
     <button style="padding: 12px 24px; font-size: 18px; background-color: #000; color: #fff; border: none; border-radius: 4px;">
       🔥 Shop DieselStrix Merch
     </button>
   </a>
-
 </body>
 </html>
