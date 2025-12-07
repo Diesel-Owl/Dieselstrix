@@ -1,130 +1,255 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
- <title>DieselStrix – See Nature at Its Boldest</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DieselStrix — See Nature at Its Boldest</title>
+  <meta name="description" content="DieselStrix: a hand-built STOL backcountry aircraft project. Follow the build, support the journey, and join a community proving dreams don't expire.">
+  <meta name="keywords" content="DieselStrix, STOL, Zenith CH-750, CH-650, Cummins R2.8, experimental aviation, bush plane">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://dieselstrix.netlify.app/">
 
-<meta name="description" content="Follow the DieselStrix aviation build — a custom diesel-powered STOL aircraft inspired by the Zenith 801. Track progress, upgrades, and the journey to first flight.">
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="DieselStrix — See Nature at Its Boldest">
+  <meta property="og:description" content="A hand-built STOL backcountry aircraft project. Follow the build, support the journey, and witness a dream rebuilt by hand.">
+  <meta property="og:url" content="https://dieselstrix.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dieselstrix.netlify.app/images/og-image.jpg">
 
-<meta name="keywords" content="DieselStrix, Zenith 801, STOL aircraft, backcountry aviation, Cummins R2.8, diesel aircraft, experimental aircraft, bush plane build, aviation project">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DieselStrix — See Nature at Its Boldest">
+  <meta name="twitter:description" content="A hand-built STOL backcountry aircraft project. Follow the build and support the journey.">
+  <meta name="twitter:image" content="https://dieselstrix.netlify.app/images/og-image.jpg">
 
-<meta name="robots" content="index, follow">
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "DieselStrix",
+    "url": "https://dieselstrix.netlify.app/",
+    "logo": "https://dieselstrix.netlify.app/images/logo.png",
+    "sameAs": [
+      "https://tiktok.com/@dieselstrix"
+    ],
+    "description": "DieselStrix is a hand-built STOL backcountry aircraft project documenting the build and flight training."
+  }
+  </script>
 
-<link rel="canonical" href="https://dieselstrix.netlify.app/">
-
-<meta property="og:title" content="DieselStrix – See Nature at Its Boldest">
-<meta property="og:description" content="Join the DieselStrix aviation project — a custom Zenith-inspired STOL aircraft powered by a diesel engine.">
-<meta property="og:url" content="https://dieselstrix.netlify.app/">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://dieselstrix.netlify.app/your-image.jpg">
-    <link rel="stylesheet" href="style.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="hero">
-        <img src="logo.png" alt="DieselStrix Logo" class="logo">
-        <h1>Project DieselStrix</h1>
-        <p class="tagline">See Nature at Its Boldest</p>
-        <img src="hero.jpg" alt="DieselStrix Aircraft" class="hero-img">
-    </header>
 
-    <section class="mission">
-        <h2>Mission</h2>
-        <p>DieselStrix is pushing the edge of experimental aviation, combining the rugged performance of a Cummins R2.8 diesel with the proven utility of a STOL-ready platform inspired by the Zenith CH-750 Super Duty. Built bold, flown bolder.</p>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img src="images/logo.png" alt="DieselStrix logo" class="logo">
+        <span class="brand-text">DieselStrix</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#build">Build</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#support">Support</a>
+        <a href="#connect">Connect</a>
+        <a href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener" class="donate-nav">Donate</a>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>DieselStrix</h1>
+          <p class="lede">Building a custom STOL backcountry aircraft from the ground up — proving dreams don’t expire.</p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener">Donate on GoFundMe</a>
+            <a class="btn btn-ghost" href="#timeline">See the Progress</a>
+          </div>
+
+          <p class="micro">Built by Curtis — law enforcement veteran, pilot-in-training, and hands-on aircraft builder.</p>
+        </div>
+
+        <figure class="hero-media">
+          <img src="images/hero.jpg" alt="DieselStrix aircraft workshop image" width="800" height="500">
+        </figure>
+      </div>
     </section>
 
-    <section class="build">
-        <h2>Current Build</h2>
-        <p>We're integrating diesel torque into the sky. The project features a Cummins R2.8 turbo diesel engine, custom mounting, and precision craftsmanship — all designed to break barriers in backcountry flight.</p>
-    </section>
 
-    <section class="support">
-        <h2>Join the Flight</h2>
-        <p>Want to support DieselStrix? Help us build the future of diesel-powered aviation.</p>
-        <a href="https://patreon.com/DieselStrix" target="_blank" class="button">Support on Patreon</a>
-       </ul>
-        <a href="https://dieselstrix.creator-spring.com" target="_blank" class="button" style="margin-top: 10px;">Merch</a>
-       </ul>
-    </section>
-<section class="journey">
-    <h2>My Story & Mission</h2>
+    <!-- ABOUT -->
+    <section id="about" class="container section">
+      <div class="card">
+        <h2>My Story & Mission</h2>
 
-    <p>For the last 12 years, I’ve worked in law enforcement. It’s a job that requires discipline, responsibility, and a steady mind. But somewhere along the way, I realized I had stopped doing things for myself. I was surviving, not living.</p>
+        <p>For the last 12 years, I worked in law enforcement. The job required discipline and responsibility, but over time I realized I had stopped doing things for myself. I was surviving, not living.</p>
 
-    <p><strong>DieselStrix is my turning point.</strong></p>
+        <p><strong>DieselStrix is my turning point.</strong> This project is about building something with my own hands that reminds me — and hopefully others — that your dreams don't expire because life got heavy.</p>
 
-    <p>This project is about building something with my own hands that reminds me — and hopefully others — that your dreams don’t expire just because life got heavy.</p>
+        <h3>What is DieselStrix?</h3>
+        <p>DieselStrix is a custom STOL backcountry aircraft I am building myself — not purchased, built. It combines:</p>
 
-    <hr>
-
-    <h3>What is DieselStrix?</h3>
-    <p>DieselStrix is a custom STOL backcountry aircraft that I am building myself. Not purchased. Built.</p>
-    <p>It’s a hybrid design using:</p>
-    <ul>
-        <li>CH-750 cabin and main wings for rugged short takeoff capability</li>
-        <li>CH-650 tail for clean control and stability in cruise</li>
-        <li>Powered by a Cummins diesel engine for reliability and efficiency</li>
-    </ul>
-    <p>This plane isn’t just a machine. It’s a statement:</p>
-    <p><strong>We are allowed to build our lives differently.</strong></p>
-
-    <hr>
-
-    <h3>Why I’m Asking for Support</h3>
-    <p>I’m working to earn my Private Pilot License and build DieselStrix from the ground up. Every step of this journey will be documented — the training, the build progress, the challenges, and the breakthroughs.</p>
-    <p>The goal isn’t just to fly.</p>
-    <p><strong>The goal is to show others that you can start your dream from exactly where you are.</strong></p>
-    <p>No perfect timing. No waiting for later. Just one step at a time.</p>
-
-    <hr>
-
-    <h3>What the Funds Will Help With</h3>
-    <ul>
-        <li>Flight training & PPL certification</li>
-        <li>Airframe materials and build components</li>
-        <li>Safety inspections & FAA compliance</li>
-        <li>Documenting the journey so others can follow and learn</li>
-    </ul>
-
-    <hr>
-
-    <h3>Be Part of DieselStrix</h3>
-    <p>This isn’t a one-man project.</p>
-    <p>Everyone who contributes — no matter the amount — becomes part of the build.</p>
-    <p>Everyone who supports this build becomes part of DieselStrix in a very real way.</p>
-
-    <p>I’ll be creating the DieselStrix Supporter Binder — a physical album that stays with the aircraft for its entire life. Each supporter will have:</p>
-    <ul>
-        <li>Your name</li>
-        <li>Your photo</li>
-        <li>The dream you’re chasing, too</li>
-    </ul>
-
-    <p>When DieselStrix stands on her own gear for the first time, supporters will be invited to take a picture next to the plane, and that photo will be added to your page in the binder.</p>
-
-    <p>This isn’t just my dream.</p>
-    <p>This is a record of every person who chose to keep dreaming — and helped make DieselStrix real.</p>
-
-    <p>No gimmicks. No empty hype.</p>
-    <p>Just real work, done step by step, honored by the people who believed in it.</p>
-
-    <hr>
-
-    <h3>Closing</h3>
-    <p>I’m not running away from my life. I’m building the next chapter of it.</p>
-    <p>If DieselStrix inspires even one person to pick their dream back up — that’s enough.</p>
-
-    <p><strong>Thank you for being part of this.</strong></p>
-</section>
-    <section class="connect">
-        <h2>Connect</h2>
         <ul>
-            <li><a href="https://tiktok.com/@dieselstrix" target="_blank">Watch on TikTok</a></li>
-            <li><a href="mailto:dieselstrix@gmail.com">Email: dieselstrix@gmail.com</a></li>
+          <li>CH-750 cabin & main wings (short takeoff performance)</li>
+          <li>CH-650 tail (clean cruise stability)</li>
+          <li>A Cummins R2.8 diesel engine for reliability and torque</li>
         </ul>
+
+        <p><strong>We are allowed to build our lives differently.</strong></p>
+      </div>
     </section>
 
-    <footer>
-        <p>© 2025 DieselStrix. All rights reserved.</p>
-    </footer>
+
+    <!-- BUILD -->
+    <section id="build" class="container section">
+      <div class="card">
+        <h2>Current Build</h2>
+        <p>Integrating a Cummins R2.8 diesel engine, custom mounts, STOL-ready airframe, and documenting every step so others can learn from the journey.</p>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <strong>PPL Progress</strong>
+            <span>Training in progress</span>
+          </div>
+          <div class="stat">
+            <strong>Engine</strong>
+            <span>Cummins R2.8 Turbo Diesel</span>
+          </div>
+          <div class="stat">
+            <strong>Airframe</strong>
+            <span>CH-750 Cabin + CH-650 Tail</span>
+          </div>
+        </div>
+
+        <h3>Build Gallery</h3>
+        <div class="gallery">
+          <img src="images/gallery-1.jpg" alt="Build photo 1">
+          <img src="images/gallery-2.jpg" alt="Build photo 2">
+          <img src="images/gallery-3.jpg" alt="Build photo 3">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- TIMELINE -->
+    <section id="timeline" class="container section">
+      <div class="card">
+        <h2>Timeline</h2>
+
+        <ol class="timeline">
+          <li><strong>Idea & Design</strong> — Concept finalized</li>
+          <li><strong>Engine Acquisition</strong> — Cummins R2.8 secured</li>
+          <li><strong>Mounting & Integration</strong> — In progress</li>
+          <li><strong>PPL Progress</strong> — Ongoing flight training</li>
+          <li><strong>First Flight Goal</strong> — Target: TBD</li>
+        </ol>
+
+        <p class="micro">Timeline items will be updated with real dates and photos as progress continues.</p>
+      </div>
+    </section>
+
+
+    <!-- SUPPORT -->
+    <section id="support" class="container section">
+      <div class="card highlight">
+        <h2>Support DieselStrix</h2>
+        <p>Your support helps fund training, materials, inspections, and all documentation so the entire aviation community can learn from this build.</p>
+
+        <div class="support-buttons">
+          <a class="btn btn-primary" href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener">Donate on GoFundMe</a>
+          <a class="btn btn-secondary" href="https://patreon.com/DieselStrix" target="_blank" rel="noopener">Support on Patreon</a>
+          <a class="btn btn-ghost" href="https://dieselstrix.creator-spring.com" target="_blank" rel="noopener">Buy Merch</a>
+        </div>
+
+        <h3>What funds go to</h3>
+        <ul>
+          <li>PPL Certification & flight training</li>
+          <li>Airframe materials & components</li>
+          <li>Safety inspections & FAA compliance</li>
+          <li>Documentation so others can follow and learn</li>
+        </ul>
+
+        <h3>Supporter Binder</h3>
+        <p>Every supporter is added to the DieselStrix Supporter Binder — a physical album that lives with the aircraft forever. When the plane first stands on its gear, supporters will be invited for a photo that becomes part of the binder.</p>
+      </div>
+    </section>
+
+
+    <!-- SUBSCRIBE FORM (Netlify) -->
+    <section class="container section">
+      <div class="card">
+        <h2>Stay Updated</h2>
+        <p>Get build updates, progress timelines, and behind-the-scenes photos.</p>
+
+        <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="subscribe">
+          <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="name">Name (optional)</label>
+          <input id="name" name="name" type="text" placeholder="Your name">
+
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+          <p class="micro">No spam. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- CONNECT -->
+    <section id="connect" class="container section">
+      <div class="card">
+        <h2>Connect</h2>
+        <ul class="connect-list">
+          <li><a href="https://tiktok.com/@dieselstrix" target="_blank">TikTok – @dieselstrix</a></li>
+          <li><a href="mailto:dieselstrix@gmail.com">Email: dieselstrix@gmail.com</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> DieselStrix — All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#support">Support</a>
+        <a href="#connect">Contact</a>
+        <a href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener">Donate</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      // Mobile nav toggle
+      const navToggle = document.getElementById('nav-toggle');
+      const nav = document.getElementById('main-nav');
+      navToggle.addEventListener('click', function(){
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !expanded);
+        nav.classList.toggle('open');
+      });
+
+      // Auto-update footer year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+
 </body>
 </html>
