@@ -29,7 +29,7 @@
     "@type": "Organization",
     "name": "DieselStrix",
     "url": "https://dieselstrix.netlify.app/",
-    <img src="images/dieselstrix-logo.png" alt="DieselStrix Logo" class="logo">
+    "logo": "https://dieselstrix.netlify.app/images/logo.png",
     "sameAs": [
       "https://tiktok.com/@dieselstrix"
     ],
@@ -77,6 +77,9 @@
             <a class="btn btn-primary" href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener">Donate on GoFundMe</a>
             <a class="btn btn-ghost" href="#timeline">See the Progress</a>
           </div>
+
+          <p class="micro">Built by Curtis — law enforcement veteran, pilot-in-training, and hands-on aircraft builder.</p>
+        </div>
 
         <figure class="hero-media">
           <img src="images/hero.jpg" alt="DieselStrix aircraft workshop image" width="800" height="500">
@@ -191,6 +194,7 @@
 
         <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="subscribe">
+          <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
 
           <label for="email">Email</label>
           <input id="email" name="email" type="email" placeholder="you@example.com" required>
