@@ -7,20 +7,20 @@
   <meta name="description" content="DieselStrix: a hand-built STOL backcountry aircraft project. Follow the build, support the journey, and join a community proving dreams don't expire.">
   <meta name="keywords" content="DieselStrix, STOL, Zenith CH-750, CH-650, Cummins R2.8, experimental aviation, bush plane">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="dieselstrix.netlify.app">
+  <link rel="canonical" href="https://dieselstrix.netlify.app/">
 
   <!-- Open Graph / Social -->
   <meta property="og:title" content="DieselStrix — See Nature at Its Boldest">
   <meta property="og:description" content="A hand-built STOL backcountry aircraft project. Follow the build, support the journey, and witness a dream rebuilt by hand.">
-  <meta property="og:url" content="dieselstrix.netlify.app">
+  <meta property="og:url" content="https://dieselstrix.netlify.app/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="dieselstrix.netlify.appimages/og-image.jpg">
+  <meta property="og:image" content="https://dieselstrix.netlify.app/images/og-image.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="DieselStrix — See Nature at Its Boldest">
   <meta name="twitter:description" content="A hand-built STOL backcountry aircraft project. Follow the build and support the journey.">
-  <meta name="twitter:image" content="dieselstrix.netlify.appimages/og-image.jpg">
+  <meta name="twitter:image" content="https://dieselstrix.netlify.app/images/og-image.jpg">
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -28,10 +28,10 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "DieselStrix",
-    "url": "dieselstrix.netlify.app",
-    "logo": "dieselstrix.netlify.appimages/logo.png",
+    "url": "https://dieselstrix.netlify.app/",
+    "logo": "https://dieselstrix.netlify.app/images/logo.png",
     "sameAs": [
-      "tiktok.com"
+      "https://tiktok.com/@dieselstrix"
     ],
     "description": "DieselStrix is a hand-built STOL backcountry aircraft project documenting the build and flight training."
   }
@@ -57,7 +57,7 @@
         <a href="#timeline">Timeline</a>
         <a href="#support">Support</a>
         <a href="#connect">Connect</a>
-        <a href="gofund.me" target="_blank" rel="noopener" class="donate-nav">Donate</a>
+        <a href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener" class="donate-nav">Donate</a>
       </nav>
 
       <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
@@ -74,7 +74,7 @@
           <p class="lede">Building a custom STOL backcountry aircraft from the ground up — proving dreams don’t expire.</p>
 
           <div class="cta-row">
-            <a class="btn btn-primary" href="gofund.me" target="_blank" rel="noopener">Donate on GoFundMe</a>
+            <a class="btn btn-primary" href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener">Donate on GoFundMe</a>
             <a class="btn btn-ghost" href="#timeline">See the Progress</a>
           </div>
 
@@ -167,8 +167,8 @@
         <p>Your support helps fund training, materials, inspections, and all documentation so the entire aviation community can learn from this build.</p>
 
         <div class="support-buttons">
-          <a class="btn btn-primary" href="gofund.me" target="_blank" rel="noopener">Donate on GoFundMe</a>
-          <a class="btn btn-secondary" href="patreon.com" target="_blank" rel="noopener">Support on Patreon</a>
+          <a class="btn btn-primary" href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener">Donate on GoFundMe</a>
+          <a class="btn btn-secondary" href="https://patreon.com/DieselStrix" target="_blank" rel="noopener">Support on Patreon</a>
           <a class="btn btn-ghost" href="https://dieselstrix.creator-spring.com" target="_blank" rel="noopener">Buy Merch</a>
         </div>
 
@@ -194,3 +194,62 @@
 
         <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="subscribe">
+          <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="name">Name (optional)</label>
+          <input id="name" name="name" type="text" placeholder="Your name">
+
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+          <p class="micro">No spam. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- CONNECT -->
+    <section id="connect" class="container section">
+      <div class="card">
+        <h2>Connect</h2>
+        <ul class="connect-list">
+          <li><a href="https://tiktok.com/@dieselstrix" target="_blank">TikTok – @dieselstrix</a></li>
+          <li><a href="mailto:dieselstrix@gmail.com">Email: dieselstrix@gmail.com</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> DieselStrix — All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#support">Support</a>
+        <a href="#connect">Contact</a>
+        <a href="https://gofund.me/d42e6e2ed" target="_blank" rel="noopener">Donate</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      // Mobile nav toggle
+      const navToggle = document.getElementById('nav-toggle');
+      const nav = document.getElementById('main-nav');
+      navToggle.addEventListener('click', function(){
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !expanded);
+        nav.classList.toggle('open');
+      });
+
+      // Auto-update footer year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+
+</body>
+</html>
